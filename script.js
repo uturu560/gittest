@@ -9,7 +9,7 @@ function updateTimer(){
         }
   //Calculate the remaining time
   let now= new Date();
-  let eventDate= new Date ("02-29-2024, 11:30:00"); //Set your event date here.
+  let eventDate= new Date ("03-29-2024, 11:30:00"); //Set your event date here.
   let timeRemaining= eventDate - now;
   
  if (timeRemaining<=0) {
